@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    font-family: 'Karla', serif ;
+
+}
+.list {
+    width: 100%;
+    list-style: none;
+    padding:  8px;
+}
+
+.list__element {
+    border-bottom: 1px solid #696868;
+}
+
+.hotel {
+    width: 100%;
+    display: flex;
+
+}
+.hotel__img {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.hotel__name {
+    font-family: 'Karla', ;
+
+}
+
+.hotel__price {
+    font-family: 'Open Sans',Arial, sans-serif ;
+
+}
+
+.hotel__location {
+    font-family: 'Open Sans',Arial, sans-serif ;
+
+}
